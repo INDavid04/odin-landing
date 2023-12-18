@@ -1,0 +1,51 @@
+/**********************************************************/
+/*                                                        */
+/*  Landing page -> HTML                                  */
+/*  datestamp: 18 December 2023                           */
+/*  timestamp: 11:30 - 12:00                              */
+/*                                                        */
+/**********************************************************/
+$dark: #1f2937;
+$white: #f9faf8;
+$offwhite: #e5e7eb;
+$cta: #3882f6;
+
+/*Presets**************************************************/
+body { margin: 0; padding: 0; font: 16px/1.5 Verdana, sans-serif; background-color: $dark; color: $white; }
+.OdinLanding { max-width: 80rem; margin: auto; }
+h1 { margin: 0; font-size: 2.5rem; font-weight: 900; }
+.SecondaryText { font-size: 1.125rem; color: $offwhite; }
+.TextColor { color: $white; }
+a { color: $white; text-decoration: none; }
+h2 { color: $dark; font-size: 2.25rem; }
+button { border: 2px solid $dark; border-radius: 0.5rem; padding: 0.5rem 2rem; background-color: $cta; color: white; font-weight: 700; cursor: pointer; }
+
+/**********************************************************/
+/*                                                        */
+/*  LandingPage -> Desktop Layout                         */
+/*  datestamp: 18 December 2023                           */
+/*  timestamp: 12:10 - 13:10                              */
+/*                                                        */
+/**********************************************************/
+header { display: flex; justify-content: space-between; align-items: center; gap: 2rem; padding: 0 2rem; }
+    .HeaderLink { font-size: 1.5rem; font-weight: 900; }
+    nav ul { display: flex; gap: 2rem; padding: 0; list-style-type: none; }
+.HeroSection { display: flex; gap: 2rem; padding: 5rem 2rem; }
+    .HeroSection div { flex: 1; }
+        .HeroSection h1 { margin-bottom: 1rem; }
+        .HeroSection p { margin: 0 0 1rem 0; }
+        .HeroSection button:focus, .HeroSection button:hover { background-color: $dark; border-color: $cta; }
+    .ImageContainer { display: flex; justify-content: center; align-items: center; background-color: $offwhite; }
+        .ImageContainer p { color: $dark; }
+.InfoSection { padding: 5rem; background-color: $white; text-align: center; }
+    .InfoSection ul { display: flex; gap: 2rem; list-style-type: none; padding: 0; color: $dark; }
+        .InfoSection div { margin: 0 auto; border: 4px solid $cta; border-radius: 0.8rem; width: 8rem; height: 8rem; }
+        .InfoSection p { color: $dark; }
+.QuoteSection { padding: 5rem 3rem; background-color: $offwhite; color: dark; }
+    .QuoteSection cite { color: $dark; font-size: 1.5rem; font-weight: lighter; }
+    .QuoteSection figcaption { color: $dark; font-weight: bolder; text-align: right; }
+.CTASection { display: flex; justify-content: space-between; align-items: center; gap: 2rem; padding: 5rem 2rem; background-color: $white; }
+    .CTASection > div { margin: 0 auto; border-radius: 0.5rem; padding: 2rem 5rem; background-color: $cta; }
+        .CTASection button { flex-shrink: 0; border-color: $white; }
+        .CTASection button:focus, .CTASection button:hover { background-color: $white; color: $cta; }
+footer { padding: 2rem; text-align: center; }
