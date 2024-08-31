@@ -5,10 +5,10 @@
 /*  timestamp: 11:30 - 12:00                              */
 /*                                                        */
 /**********************************************************/
-$dark: #1f2937;
-$white: #f9faf8;
-$offwhite: #e5e7eb;
-$cta: #3882f6;
+$dark: #1f2937; $white: #f9faf8; $offwhite: #e5e7eb; $cta: #3882f6;
+
+footer a { color: $cta; font-weight: bold; }
+footer a:focus, footer a:hover { text-decoration: underline; }
 
 /*Presets**************************************************/
 body { margin: 0; padding: 0; font: 16px/1.5 Verdana, sans-serif; background-color: $dark; color: $white; }

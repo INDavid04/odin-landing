@@ -5,6 +5,15 @@
 /*  timestamp: 11:30 - 12:00                              */
 /*                                                        */
 /**********************************************************/
+footer a {
+  color: #3882f6;
+  font-weight: bold;
+}
+
+footer a:focus, footer a:hover {
+  text-decoration: underline;
+}
+
 /*Presets**************************************************/
 body {
   margin: 0;
